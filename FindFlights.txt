@@ -1,0 +1,36 @@
+run:
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+Enter Flight Origin: 
+Los-Angeles
+Enter Flight Destination: 
+Honolulu
+Flight Information
+Flight No. 	Origin  	Destination    	Distance   	Duration
+   33          Los-Angeles        Honolulu       2551             2:0:0
+   34          Los-Angeles        Honolulu       2551            2:33:0
+BUILD SUCCESSFUL (total time: 14 seconds)
+
+run:
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+Enter Flight Origin: 
+Los-Angeles
+Enter Flight Destination: 
+Sydney
+Flight Information
+Flight No. 	Origin  	Destination    	Distance   	Duration
+    7          Los-Angeles          Sydney       7487           31:40:0
+BUILD SUCCESSFUL (total time: 16 seconds)
+
+run:
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+Enter Flight Origin: 
+Madison
+Enter Flight Destination: 
+Chicago
+Flight Information
+Flight No. 	Origin  	Destination    	Distance   	Duration
+ 4884              Madison         Chicago         84            0:50:0
+BUILD SUCCESSFUL (total time: 9 seconds)
